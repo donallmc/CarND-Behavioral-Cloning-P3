@@ -14,7 +14,7 @@ The goals / steps of this project are the following:
 [image4]: ./images/recovery2.jpg "Recovery Image"
 [image5]: ./images/recovery3.jpg "Recovery Image"
 [image6]: ./images/centre.jpg "Normal Image"
-[image7]: ./images/centre_flippped.jpg "Flipped Image"
+[image7]: ./images/centre_flipped.jpg "Flipped Image"
 
 ## Rubric Points
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.
@@ -99,7 +99,7 @@ To capture good driving behavior, I first recorded a lap on track one using cent
 
 ![alt text][image2]
 
-I then supplanted it with many more laps in both directions. That proved to not quite be suitable so I recorded some additional data showing the vehicle recovering from the left side and right sides of the road back to center. The idea was that the model would learn that when it sees a road boundary close to the centre of the image or when it sees the boundary directly in front of the car it should turn sharply away from the boundary. These images show what a recovery looks like starting from ... :
+I then supplanted it with many more laps in both directions. That proved to not quite be suitable so I recorded some additional data showing the vehicle recovering from the left side and right sides of the road back to center. The idea was that the model would learn that when it sees a road boundary close to the centre of the image or when it sees the boundary directly in front of the car it should turn sharply away from the boundary. These images show what a recovery looks like starting from the right edge of the road:
 
 ![alt text][image3]
 ![alt text][image4]
