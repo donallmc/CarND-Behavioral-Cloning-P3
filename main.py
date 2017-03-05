@@ -1,6 +1,6 @@
 import sys
 from training_data import TrainingData
-from nvidia_model import NvidiaModel
+from model import NvidiaModel
 
 '''
 Usage: python main.py [path_to_driving_log]
