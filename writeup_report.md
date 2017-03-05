@@ -112,8 +112,6 @@ To augment the data sat, I also flipped images and angles thinking that this wou
 ![alt text][image6]
 ![alt text][image7]
 
-Etc ....
-
 After the collection process, I had ~ 180,000 data points (doubled to 360,000 with random flipping). I didn't perform any pre-processing of the images outside the model. Instead the model normalizes each pixel to a value between-1 and 1 and crops the non-road sections of the image (based on hard-coded parameters; this approach would not generalise to other terrain types).
 
 I finally randomly shuffled the data set and put 10% of the data into a validation set.
