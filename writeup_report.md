@@ -10,11 +10,11 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image3]: ./examples/recovery1.jpg "Recovery Image"
-[image4]: ./examples/recovery2.jpg "Recovery Image"
-[image5]: ./examples/recovery3.jpg "Recovery Image"
-[image6]: ./examples/centre.jpg "Normal Image"
-[image7]: ./examples/centre_flippped.jpg "Flipped Image"
+[image3]: ./images/recovery1.jpg "Recovery Image"
+[image4]: ./images/recovery2.jpg "Recovery Image"
+[image5]: ./images/recovery3.jpg "Recovery Image"
+[image6]: ./images/centre.jpg "Normal Image"
+[image7]: ./images/centre_flippped.jpg "Flipped Image"
 
 ## Rubric Points
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.
