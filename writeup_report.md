@@ -43,6 +43,10 @@ python drive.py model.json
 
 The model.py file contains the code for training and saving the convolution neural network. The file shows the pipeline I used for training and validating the model. The code is mostly self-explanatory but it includes some comments to clarify one or two lines.
 
+There is also a training_data.py file that encapsulates reading the training data from disk and producing training and validation generators for the model.
+
+The file main.py is a short script which uses the model and trainig_data files/classes to actually train and save the model.
+
 ###Model Architecture and Training Strategy
 
 ####1. An appropriate model architecture has been employed
