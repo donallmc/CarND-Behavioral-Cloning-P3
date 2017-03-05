@@ -97,7 +97,7 @@ The final model architecture, as mentioned above, is the same basic architecture
 
 To capture good driving behavior, I first recorded a lap on track one using center lane driving. Here is an example image of center lane driving:
 
-![alt text][image2]
+![alt text][image6]
 
 I then supplanted it with many more laps in both directions. That proved to not quite be suitable so I recorded some additional data showing the vehicle recovering from the left side and right sides of the road back to center. The idea was that the model would learn that when it sees a road boundary close to the centre of the image or when it sees the boundary directly in front of the car it should turn sharply away from the boundary. These images show what a recovery looks like starting from the right edge of the road:
 
